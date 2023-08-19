@@ -9,10 +9,21 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'hero_bg': "url('/images/hero_bg.svg')"
       },
+      height: {
+        'hero_desktop': '730px'
+      },
+      backgroundColor: {
+        'hero_opacity': "rgba(0, 0, 0, 0.55)",
+        'btn_call': '#1EBCCA'
+      },
+      fontSize: {
+        'h1': '68px'
+      },
+      borderRadius: {
+        'btn_call': '35px'
+      }
     },
   },
   plugins: [],
