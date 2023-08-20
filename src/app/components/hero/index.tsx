@@ -5,8 +5,8 @@ import HeroInfo from "./hero_info";
 
 const Hero = () => {
     return (
-        <div id="hero" className="bg-hero_bg  h-hero_desktop bg-cover pt-28 ">
-            <div className="container mx-auto px-4 z-10 relative">
+        <div id="hero" className="bg-hero_bg h-hero_mobile  md:h-hero_desktop bg-cover pt-28">
+            <div className="container mx-auto px-8 md:px-4 z-10 relative">
                 <HeroTitle />
                 <HeroParagraph />
                 <HeroButton />

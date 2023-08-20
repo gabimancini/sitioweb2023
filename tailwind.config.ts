@@ -12,7 +12,8 @@ const config: Config = {
         'hero_bg': "url('/images/hero_bg.svg')"
       },
       height: {
-        'hero_desktop': '730px'
+        'hero_desktop': '730px',
+        'hero_mobile': '500px'
       },
       backgroundColor: {
         'hero_opacity': "rgba(0, 0, 0, 0.55)",
