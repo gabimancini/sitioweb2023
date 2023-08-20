@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
 
       <body className={lato.className}>
-        <header className='absolute w-full z-10 p-6'>
+        <header className='absolute w-full z-10 md:p-6'>
           <Navigation />
         </header>
         <main>
