@@ -24,6 +24,10 @@ const config: Config = {
       },
       borderRadius: {
         'btn_call': '35px'
+      },
+      zIndex:{
+        'hero': '1',
+        'hero_opacity': '-1'
       }
     },
   },
