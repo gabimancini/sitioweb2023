@@ -50,17 +50,17 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                             </li>
                             <div className="ml-16 flex">
                                 <li className="mr-3.5">
-                                    <Link href="/contact">
+                                    <Link href="https://www.linkedin.com/company/74729757/admin/feed/posts/" target="_blank">
                                         <FaLinkedin />
                                     </Link>
                                 </li>
                                 <li className="mr-3.5">
-                                    <Link href="/contact">
+                                    <Link href="https://www.facebook.com/DevMagister" target="_blank">
                                         <FaFacebookSquare />
                                     </Link>
                                 </li>
                                 <li> 
-                                        <Link href="/contact">
+                                        <Link href="https://www.instagram.com/devmagister/?hl=es-la" target="_blank">
                                             <FaInstagramSquare />
                                         </Link>
                                     </li>
