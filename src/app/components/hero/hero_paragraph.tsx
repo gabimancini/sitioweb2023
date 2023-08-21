@@ -1,6 +1,7 @@
 const HeroParagraph = ()=>{
+    const text = "In an interconnected world, expanding your business's horizons has never been more essential. Our expertly crafted user experiences ensure that your brand's message transcends linguistic and cultural barriers, resonating effortlessly with audiences worldwide."
     return(
-      <p className="text-white max-w-2xl text-sm md:text-lg mb-8 md:mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p className="text-white max-w-2xl text-sm md:text-lg mb-8 md:mb-12">{text}</p>
     )
 }
 export default HeroParagraph;
