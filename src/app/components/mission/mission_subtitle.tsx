@@ -1,7 +1,7 @@
 import SubTitleh2 from '../subtitles';
-const Subtitle = ()=>{
+const Subtitle = ()=>{ 
     return(
-        <SubTitleh2 text="Our Mission" />
+        <SubTitleh2  text="Our Mission" />
     )
 }
 export default Subtitle
