@@ -1,8 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import Link from "next/link";
-import Button from "./button";
+import Link from "next/link"; 
 
 const Logo = () => {
   //update the size of the logo when the size of the screen changes
@@ -35,7 +34,7 @@ const Logo = () => {
 
   return (
     <>
-      <Link href="/" style={{ display: showButton ? "none" : "block" }}>
+      <Link href="/" >
         <Image
           src="/images/logo.svg"
           alt="Logo"
@@ -48,8 +47,7 @@ const Logo = () => {
         style={{
           display: showButton ? "block" : "none",
         }}
-      >
-        <Button />
+      > 
       </div>
     </>
   );

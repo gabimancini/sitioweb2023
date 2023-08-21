@@ -8,29 +8,30 @@ const Cards = () => {
         {
             img: misionImg,
             title: "MISSION",
-            text: "Provide our clients with a quality service."
+            text: "Provide our clients with a quality service.",
+            alt: "mision"
         },
         {
             img: visionImg,
             title: "VISION",
-            text: "Provide our clients with a quality service."
+            text: "Provide our clients with a quality service.",
+            alt: "vision"
         },
         {
             img: valuesImg,
-            title: "VISION",
-            text: "Provide our clients with a quality service."
+            title: "VALUE",
+            text: "Provide our clients with a quality service.",
+            alt: "value"
         }
     ]
     return (
-        <div className="flex justify-around">
-        {dataCards.map((data: { text: string; title: string; img: string; },index: any)=>{
-            return(
-                <Card text={data.text} title={data.title} img={data.img} width={size} height={size}/>
-            )
-           
-        })
-    
-        }
+        <div className="flex justify-around flex-wrap">
+            {dataCards.map((data: {img: string; alt: string; title: string; text: string;}, index: any) => {
+                return (
+                    <Card img={data.img} alt={data.alt} title={data.title} text={data.text}  width={size} height={size} />
+                )
+            })
+            }
         </div>
     )
 }

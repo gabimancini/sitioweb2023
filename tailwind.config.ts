@@ -25,7 +25,8 @@ const config: Config = {
       },
       backgroundColor: {
         'hero_opacity': "rgba(0, 0, 0, 0.55)",
-        'btn_call': '#1EBCCA'
+        'btn_call': '#1EBCCA',
+        'mission_card': 'rgba(255, 255, 255, 0.50)'
       },
       fontSize: {
         'h1': '68px'
