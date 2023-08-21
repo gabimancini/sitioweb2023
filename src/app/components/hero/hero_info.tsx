@@ -5,7 +5,7 @@ import { BiSolidTimeFive } from 'react-icons/bi';
 
 const HeroInfo = () => {
     return (
-        <div className="flex justify-around mt-14 md:mt-32 text-sm flex-col md:flex-row  items-center md:items-start">
+        <div className="text-white flex justify-around mt-14 md:mt-32 text-sm flex-col md:flex-row  items-center md:items-start">
             <Link href="tel:+14845428274" className="py-0.5">
                 <BsTelephoneFill className="inline-block mr-2" /><span>+14845428274</span>
             </Link>

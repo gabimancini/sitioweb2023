@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import {Lato} from 'next/font/google'
 import Navigation from './components/header';
 import Hero from './components/hero';
+import Mission from './components/mission';
 const lato = Lato({
   weight: '400',
   subsets: ['latin'],
@@ -27,6 +28,7 @@ export default function RootLayout({
         </header>
         <main>
           <Hero />
+          <Mission/>
         </main>
       </body>
     </html>
