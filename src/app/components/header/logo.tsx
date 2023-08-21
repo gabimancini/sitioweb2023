@@ -22,7 +22,7 @@ const Logo = () => {
   const [showButton, setShowButton] = useState(false);
 
   const changeNavButton = () => {
-    if (window.scrollY >= 400 && window.innerWidth < 768) {
+    if ( window.innerWidth <= 769) {
       setShowButton(true);
     } else {
       setShowButton(false);
