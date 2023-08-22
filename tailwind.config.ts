@@ -8,11 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'services_shadow': '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
+      },
       colors: {
         'mission_blue': "rgba(52, 45, 175, 0.40)",
         "mission_green": "rgba(23, 138, 158,0.4)",
         "mission_ligth_green": "#rgba(30, 188, 202, 0.4)",
         "mission_text": "#015F67",
+        "services_blue" : "#B9D5FF",
+        "services_ligth_blue": "rgba(185, 213, 255, 0.00)",
+        "service_text": "rgba(20, 20, 43, 0.60)",
         "bg_text": "rgba(90, 90, 195, 0.10)"
       },
       backgroundImage: {
