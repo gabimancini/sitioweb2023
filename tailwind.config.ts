@@ -16,7 +16,8 @@ const config: Config = {
         "bg_text": "rgba(90, 90, 195, 0.10)"
       },
       backgroundImage: {
-        'hero_bg': "url('/images/hero_bg.svg')"
+        'hero_bg': "url('/images/hero_bg.svg')",
+        'hero_bg_desk': "url('/images/hero_bg_desk.svg')"
       },
       gradientColorStopPositions: {
         45: '45%',
