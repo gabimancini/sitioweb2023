@@ -12,7 +12,8 @@ const config: Config = {
         'mission_blue': "rgba(52, 45, 175, 0.40)",
         "mission_green": "rgba(23, 138, 158,0.4)",
         "mission_ligth_green": "#rgba(30, 188, 202, 0.4)",
-        "mission_text": "#015F67"
+        "mission_text": "#015F67",
+        "bg_text": "rgba(90, 90, 195, 0.10)"
       },
       backgroundImage: {
         'hero_bg': "url('/images/hero_bg.svg')"
