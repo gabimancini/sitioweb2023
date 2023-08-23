@@ -2,7 +2,7 @@ import SocialIcons from "../social_icons";
 import FooterContact from "./footer_contact";
 import FooterLinks from "./footer_links";
 import FooterLogo from "./footer_logo";
-import FooterBottom from "./fotter_bottom";
+import FooterBottom from "./footer_bottom";
 import FooterNewsletter from "./footer_newsletter";
 import FooterSocialIcons from "./footer_social_icons";
 import FooterText from "./footer_text";
