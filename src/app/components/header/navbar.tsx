@@ -1,7 +1,7 @@
 import React from "react";
-import Link from "next/link";
 import Logo from "./logo";
-import { FaLinkedin, FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa';
+import Links from "../links";
+import SocialIcons from "../social_icons";
 
 const Navbar = ({ toggle }: { toggle: () => void }) => {
     return (
@@ -28,42 +28,9 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                             </svg>
                         </button>
                         <ul className="hidden md:flex gap-x-6 text-white flex items-center text-lg font-semibol">
-                            <li>
-                                <Link href="/">
-                                    <p>Home</p>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/about">
-                                    <p>About Us</p>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/services">
-                                    <p>Services</p>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/contact">
-                                    <p>Contact</p>
-                                </Link>
-                            </li>
+                            <Links />
                             <div className="ml-16 flex">
-                                <li className="mr-3.5">
-                                    <Link href="/" target="_blank">
-                                        <FaLinkedin />
-                                    </Link>
-                                </li>
-                                <li className="mr-3.5">
-                                    <Link href="/" target="_blank">
-                                        <FaFacebookSquare />
-                                    </Link>
-                                </li>
-                                <li> 
-                                        <Link href="/" target="_blank">
-                                            <FaInstagramSquare />
-                                        </Link>
-                                    </li>
+                                <SocialIcons />
                             </div>
                         </ul>
                     </div>

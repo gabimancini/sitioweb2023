@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { FaLinkedin, FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa';
+import Links from "../links";
+import SocialIcons from "../social_icons";
 const Sidebar = ({
     isOpen,
     toggle,
@@ -25,47 +26,14 @@ const Sidebar = ({
                 </button>
 
                 <ul className="sidebar-nav text-center leading-relaxed text-lg font-semibol">
-                    <li>
-                        <Link href="/" onClick={toggle} className="py-3.5 inline-block">
-                            <p>Home</p>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/about" onClick={toggle} className="py-3.5 inline-block">
-                            <p>About Us</p>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/services" onClick={toggle} className="py-3.5 inline-block">
-                            <p>Services</p>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/contacts" onClick={toggle} className="py-3.5 inline-block">
-                            <p>Contacts</p>
-                        </Link>
-                    </li>
+                    <Links />
                     <div className="py-3.5 flex">
-                                <li>
-                                    <Link href="/" target="_blank" className="px-3.5 inline-block">
-                                        <FaLinkedin className='w-[30px] h-[30px]'/>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/" target="_blank" className="px-3.5 inline-block">
-                                        <FaFacebookSquare className='w-[30px] h-[30px]' />
-                                    </Link>
-                                </li>
-                                <li>
-                                        <Link href="/" target="_blank" className="px-3.5 inline-block">
-                                            <FaInstagramSquare className='w-[30px] h-[30px]' />
-                                        </Link>
-                                    </li>
-                            </div>
+                        <SocialIcons />
+                    </div>
                 </ul>
                 <Link href="mailto:info@devmagister.com" className="pb-3.5">
-                 <span>info@devmagister.com</span>
-            </Link>
+                    <span>info@devmagister.com</span>
+                </Link>
             </div>
         </>
     );

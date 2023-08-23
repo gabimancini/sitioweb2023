@@ -33,7 +33,7 @@ const Cards = ()=>{
     ]
 
     return (
-        <div className="md:grid md:grid-cols-2 rounded-[8px] lg:rounded-[0] bg-gradient-to-b from-services_blue  to-services_light_blue lg:bg-none shadow-services_shadow">
+        <div className="md:grid md:grid-cols-2 rounded-[8px] lg:rounded-[0] bg-gradient-to-b from-services_blue to-services_light_blue lg:bg-none shadow-services_shadow lg:shadow-none">
             {dataCards.map((data: {img: string; alt: string; title: string; text: string;}, index: any) => {
                 return (
                     <Card img={data.img} alt={data.alt} title={data.title} text={data.text}  width={size} height={size} />

@@ -1,7 +1,7 @@
 import HeroTitle from "./hero_title";
 import HeroParagraph from "./hero_paragraph";
 import HeroButton from "./hero_call";
-import HeroInfo from "./hero_info";
+import HeroContacto from "./hero_contacto";
 
 const Hero = () => {
     return (
@@ -12,7 +12,7 @@ const Hero = () => {
                 <HeroButton />
             </div>
             <div className="container mx-auto px-4 z-10 relative">
-                <HeroInfo />
+               <HeroContacto />
             </div>
             <div className="absolute w-full h-full bg-hero_opacity z-hero_opacity top-0"></div>
         </section>

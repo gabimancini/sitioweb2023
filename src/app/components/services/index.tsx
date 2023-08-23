@@ -3,7 +3,7 @@ import ServicesTitle from "./services_title";
 const Services = () => {
     return (
         <section id="services">
-            <div className="max-w-[1278px] m-auto bg-mission_bg px-[24px] py-[42px]">
+            <div className="max-w-[1440px] m-auto bg-mission_bg px-[24px] py-[42px]">
                 <ServicesTitle />
                 <div>
                 <Cards />
