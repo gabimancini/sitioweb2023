@@ -28,7 +28,7 @@ const Sidebar = ({
                 <ul className="sidebar-nav text-center leading-relaxed text-lg font-semibol">
                     <Links className=""/>
                     <div className="py-3.5 flex">
-                        <SocialIcons fontSize={32}/>
+                        <SocialIcons fontSize={32} />
                     </div>
                 </ul>
                 <Link href="mailto:info@devmagister.com" className="pb-3.5">

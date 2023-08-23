@@ -7,12 +7,12 @@ const SocialIcons = (props: SocialIconsType) => {
     const {fontSize} = props;
     return (
         <>
-            <li className= "mr-3.5">
+            <li className="mr-[14px]">
                 <Link href="/" target="_blank" >
                     <FaLinkedin font-size={fontSize} />
                 </Link>
             </li>
-            <li className="mr-3.5">
+            <li className="mr-[14px]">
                 <Link href="/" target="_blank">
                     <FaFacebookSquare font-size={fontSize} />
                 </Link>
