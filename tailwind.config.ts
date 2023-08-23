@@ -41,7 +41,7 @@ const config: Config = {
         'h1': '68px'
       },
       borderRadius: {
-        'btn_call': '35px'
+        'btn_call': '8px'
       },
       zIndex: {
         'hero': '1',
