@@ -1,6 +1,6 @@
 const FooterBottom = () => {
     return (
-        <div className="py-[10px] text-[14px] text-center text-footer_bottom">
+        <div className="py-[10px] text-[14px] text-center text-footer_bottom md:flex md:justify-center">
             <p>© 2021 <span className="text-red">DevMagister</span> LLC | All rights reserved. </p>
             <p>Privacy Policy</p>
         </div>

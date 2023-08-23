@@ -1,6 +1,6 @@
 const FooterNewsletter = () => {
     return (
-        <form className="mt-[14px] text-[14px]">
+        <form className="mt-[14px] text-[14px] md:absolute md:bottom-0 md:max-w-[440px] md:w-[100%]">
             <label>Subscribe to our Newsletter</label>
             <div className="flex relative mt-[17px]">
                 <input type="email" placeholder="Enter you email" className="rounded-[8px] p-[5px] w-[100%] bg-bg_newsletter_input"/>

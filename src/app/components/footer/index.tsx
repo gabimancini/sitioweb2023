@@ -10,19 +10,26 @@ import FooterText from "./footer_text";
 const Footer = () => {
     return (
         <>
-            <div className="bg-main_blue text-white px-[22px] py-[21px]">
-                <FooterLogo />
-                <FooterText />
-                <div className="flex">
-                    <FooterLinks />
-                    <div className="border-l-2 border-footer w-[65%] pl-[15px]">
-                        <FooterContact />
-                        <FooterSocialIcons />
+            <div className="bg-main_blue text-white px-[22px] py-[21px] ">
+                <div className="max-w-[1500px] m-auto md:flex md:relative">
+                    <div className="md:w-[50%]">
+                        <FooterLogo />
+                        <FooterText />
                     </div>
+                    <div className="flex md:w-[50%]">
+                        <FooterLinks />
+                        <div className="border-l-2 border-footer w-[64%] pl-[15px] md:w-[50%]">
+                            <FooterContact />
+                            <FooterSocialIcons />
+                        </div>
+                    </div>
+                    <FooterNewsletter />
                 </div>
-                <FooterNewsletter />
             </div>
-            <FooterBottom />
+            <div>
+                <FooterBottom />
+            </div>
+
         </>
     )
 }
