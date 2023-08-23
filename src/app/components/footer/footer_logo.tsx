@@ -4,9 +4,9 @@ const FooterLogo = ()=>{
         <Image
         src="/images/logo_img.svg"
         alt="Logo"
-        width={45}
-        height={45}
-        className="relative"
+        width={46}
+        height={43}
+        className="mb-[17px]"
       />
     )
 }

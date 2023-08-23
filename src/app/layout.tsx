@@ -7,7 +7,7 @@ import Mission from './components/mission';
 import Services from './components/services';
 import Footer from './components/footer';
 const lato = Lato({
-  weight: '400',
+  weight: ['300','400','700'],
   subsets: ['latin'],
 })
 
