@@ -26,7 +26,7 @@ const Sidebar = ({
                 </button>
 
                 <ul className="sidebar-nav text-center leading-relaxed text-lg font-semibol">
-                    <Links />
+                    <Links className=""/>
                     <div className="py-3.5 flex">
                         <SocialIcons />
                     </div>
