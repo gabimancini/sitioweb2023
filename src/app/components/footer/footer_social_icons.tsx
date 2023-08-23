@@ -2,8 +2,8 @@ import SocialIcons from "../social_icons";
 
 const FooterSocialIcons = ()=>{
 return(
-    <ul>
-        <SocialIcons />
+    <ul className="flex mt-[15px]">
+        <SocialIcons fontSize={30} />
     </ul>
 )
 }

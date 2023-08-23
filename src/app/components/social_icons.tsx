@@ -1,22 +1,25 @@
 import Link from "next/link";
 import { FaLinkedin, FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa';
-
-const SocialIcons = () => {
+type SocialIconsType = {
+    fontSize: number;
+}
+const SocialIcons = (props: SocialIconsType) => { 
+    const {fontSize} = props;
     return (
         <>
-            <li className="mr-3.5">
-                <Link href="/" target="_blank">
-                    <FaLinkedin />
+            <li className= "mr-3.5">
+                <Link href="/" target="_blank" >
+                    <FaLinkedin font-size={fontSize} />
                 </Link>
             </li>
             <li className="mr-3.5">
                 <Link href="/" target="_blank">
-                    <FaFacebookSquare />
+                    <FaFacebookSquare font-size={fontSize} />
                 </Link>
             </li>
             <li>
                 <Link href="/" target="_blank">
-                    <FaInstagramSquare />
+                    <FaInstagramSquare  font-size={fontSize}/>
                 </Link>
             </li>
         </>

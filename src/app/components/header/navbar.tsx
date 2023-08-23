@@ -30,7 +30,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                         <ul className="hidden md:flex gap-x-6 text-white flex items-center text-lg font-semibol">
                             <Links className=""/>
                             <div className="ml-16 flex">
-                                <SocialIcons />
+                                <SocialIcons fontSize={27.1}/>
                             </div>
                         </ul>
                     </div>

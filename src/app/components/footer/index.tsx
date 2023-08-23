@@ -15,7 +15,7 @@ const Footer = () => {
                 <FooterText />
                 <div className="flex">
                     <FooterLinks />
-                    <div className="border-l-2 border-footer w-[60%]">
+                    <div className="border-l-2 border-footer w-[65%] pl-[15px]">
                         <FooterContact />
                         <FooterSocialIcons />
                     </div>
