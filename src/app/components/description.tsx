@@ -4,7 +4,7 @@ type DescriptionProps = {
 const Description = (props: DescriptionProps)=>{
     const{text}=props
     return(
-        <p className="text-[14px] mb-[40px] lg:text-[18px]">{text}</p>
+        <p className="text-[14px] mb-[40px] lg:text-[18px] text-center">{text}</p>
     )
 }
 export default Description;

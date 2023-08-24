@@ -10,10 +10,18 @@ type CardPros = {
 const Card = (props: CardPros) => {
     const { img, alt, title, text, width, height } = props;
     return (
-        <div className='lg:bg-gradient-to-b lg:from-services_blue lg:to-services_light_blue lg:shadow-services_shadow max-w-[640px] px-[10px] py-[8px] lg:px-[32px] lg:py-[26px] md:px-[10px] md:py-[18px] lg:px-[32px] lg:py-[26px] my-[15px] rounded-[8px] lg:flex'>
-           <div className='lg:order-1 lg:w-[40%]'><Image className="mx-auto mb-[11px] lg:mb-0 w-[228px]" src={img} alt={alt} width={width} height={height} /></div> 
-            <div className='lg:w-[60%]'> <h3 className='text-[18px] mb-[11px] md:mb-[10px] text-center'>{title}</h3>
-                <p className='text-[14px] text-service_text  '>{text}</p></div>
+        <div className={`"
+            md:shadow-services_shadow
+            md:max-w-[50%] m-auto
+            px-[10px] py-[8px] md:px-[10px] md:py-[18px] md:px-[32px] md:py-[26px]
+            my-[15px]
+            rounded-[8px]
+            "`}>
+            <div className='flex '>
+            <Image className="mb-[11px] lg:mb-0 " src={img} alt={alt} width={width} height={height} />
+             <h3 className='leading-[3] text-[18px] mb-[11px]'>{title}</h3>
+             </div>
+              <p className='text-[14px] text-service_text leading-[14px] md:leading-7'>{text}</p>
         </div>
     )
 }

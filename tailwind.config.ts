@@ -11,13 +11,11 @@ const config: Config = {
       borderColor:{
       'footer': 'rgba(255, 255, 255, 0.20)'
       },
-      boxShadow: {
-        'services_shadow': '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
-      },
       colors: {
         "main_blue": "#172C63",
         "main_black": "#1D2130",
         "red": "#FF0A0A",
+        "light_gray": "#F9FAFB",
         'mission_blue': "rgba(52, 45, 175, 0.40)",
         "mission_green": "rgba(23, 138, 158,0.4)",
         "mission_ligth_green": "#rgba(30, 188, 202, 0.4)",
