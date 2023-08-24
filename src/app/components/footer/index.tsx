@@ -11,14 +11,14 @@ const Footer = () => {
     return (
         <>
             <div className="bg-main_blue text-white px-[22px] py-[21px] ">
-                <div className="max-w-[1500px] m-auto md:flex md:relative">
+                <div className="max-w-[1440px] m-auto md:flex md:relative">
                     <div className="md:w-[50%]">
                         <FooterLogo />
                         <FooterText />
                     </div>
                     <div className="flex md:w-[50%]">
                         <FooterLinks />
-                        <div className="border-l-2 border-footer w-[64%] pl-[15px] md:w-[50%]">
+                        <div className="border-l-2 border-footer w-[64%] pl-[15px] md:w-[40%]">
                             <FooterContact />
                             <FooterSocialIcons />
                         </div>
