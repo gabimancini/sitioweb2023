@@ -25,7 +25,7 @@ const Cards = () => {
         }
     ]
     return (
-        <div className="flex  justify-center md:justify-between flex-wrap">
+        <div className="flex justify-center md:justify-between flex-wrap">
             {dataCards.map((data: {img: string; alt: string; title: string; text: string;}, index: any) => {
                 return (
                     <Card img={data.img} alt={data.alt} title={data.title} text={data.text}  width={size} height={size} />
